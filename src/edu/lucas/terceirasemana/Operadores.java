@@ -100,21 +100,21 @@ public class Operadores {
         System.out.println(nome2.equals(nome3)); //??
         System.out.println(nome3.equals(nome4)); //??
 
-        int numero1 = 130;
-        int numero2 = 130;
-        System.out.println(numero1 == numero2); //true
+        int numero1_2 = 130;
+        int numero2_2 = 130;
+        System.out.println(numero1_2 == numero2_2); //true
 
-        Integer numero1 = 130;
-        Integer numero2 = 130;
+        Integer numero1_3 = 130;
+        Integer numero2_3 = 130;
 
-        System.out.println(numero1 == numero2); //false
+        System.out.println(numero1_3 == numero2_3); //false
 
         // A razão pela qual o resultado é false, é devido o Java tratar os valores
         // Como objetos a partir de agora.
         // Qual a solução ?
         // Quando queremos comparar objetos, usamos o método equals
 
-        System.out.println(numero1.equals(numero2));
+        System.out.println(numero1_3.equals(numero2_3));
 
         // Operadores.java
         boolean condicao1 = true;
@@ -135,14 +135,14 @@ public class Operadores {
             System.out.print("Um dos valores precisa ser verdadeiro");
 
         // ComparacaoAvancada.java
-        int numero1 = 1;
-        int numero2 = 1;
+        int numero1_4 = 1;
+        int numero2_4 = 1;
 
-        if (numero1 == 2 & numero2++ == 2)
+        if (numero1_4 == 2 & numero2_4++ == 2)
             System.out.println("As 2 condições são verdadeiras");
 
-        System.out.println("O numero 1 agora é " + numero1);
-        System.out.println("O numero 2 agora é " + numero2);
+        System.out.println("O numero 1 agora é " + numero1_4);
+        System.out.println("O numero 2 agora é " + numero2_4);
 
         // Vamos mudar a linha 5 do código acima para: if(numero1== 2 && numero2 ++ == 2 )
 
